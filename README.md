@@ -1,6 +1,6 @@
 # Awesome Agent Skills [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A strictly scoped list of AI agent skills, full-workflow skill stacks (`gstack`, `pstack`, `superpowers`, etc.), vendor skill packs, registries, and tooling built around the portable `SKILL.md` standard.
+> A curated list of AI agent skills, full-workflow skill stacks (`gstack`, `pstack`, `superpowers`, etc.), vendor skill packs, registries, and tooling built around the portable `SKILL.md` standard.
 
 **Agent Skills** are modular, version-controlled packages of instructions, playbooks, slash commands, and helper scripts loaded on demand into coding agent harnesses such as Claude Code, Cursor, OpenAI Codex CLI, Gemini CLI, GitHub Copilot, and OpenCode.
 
