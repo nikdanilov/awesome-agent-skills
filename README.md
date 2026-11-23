@@ -33,7 +33,7 @@ Opinionated end-to-end bundles of skills, playbooks, slash commands, and review 
 - [Get Shit Done (GSD)](https://github.com/gsd-build/get-shit-done) - Lightweight meta-prompting and spec-driven development workflow that fights context rot by isolating project phases into fresh subagent contexts.
 - [GitHub Spec Kit](https://github.com/github/spec-kit) - GitHub's official Spec-Driven Development toolkit implementing `/specify`, `/plan`, `/tasks`, and `/implement` loops across coding agents.
 - [gstack](https://github.com/garrytan/gstack) - Garry Tan's role-based engineering skill stack for Claude Code and Codex modeling an entire startup sprint (`/office-hours`, `/plan-ceo-review`, `/review`, `/qa`, `/ship`).
-- [pstack](https://github.com/cursor/plugins/tree/main/plugins/pstack) - Lauren Tan's (`@poteto`) opinionated engineering rigor stack for Cursor featuring `poteto-mode` playbooks, root-cause debugging, adversarial review (`/interrogate`), and anti-slop rules (`/unslop`).
+- [pstack](https://github.com/cursor/plugins/tree/main/pstack) - Lauren Tan's (`@poteto`) opinionated engineering rigor stack for Cursor featuring `poteto-mode` playbooks, root-cause debugging, adversarial review (`/interrogate`), and anti-slop rules (`/unslop`).
 - [pstack-claude](https://github.com/michael-denyer/pstack-claude) - Community cross-harness port adapting `pstack` playbooks and skills for Claude Code, Codex, GitHub Copilot, Gemini, and Pi.
 - [Superpowers](https://github.com/obra/superpowers) - Jesse Vincent's agentic software engineering methodology enforcing brainstorming, structured specs, Git worktrees, strict Red/Green TDD, and systematic debugging.
 
@@ -76,16 +76,16 @@ Open specifications, CLIs, and registries for authoring, discovering, and instal
 
 ## Quick Comparison: Skill Stacks
 
-| Stack                    | Creator                | Primary Targets                  | Signature Pattern                                                          |
-| ------------------------ | ---------------------- | -------------------------------- | -------------------------------------------------------------------------- |
+| Stack                    | Creator                | Primary Targets                  | Signature Pattern                                                           |
+| ------------------------ | ---------------------- | -------------------------------- | --------------------------------------------------------------------------- |
 | **gstack**               | Garry Tan              | Claude Code, Codex               | Startup role personas (`/office-hours`, `/plan-ceo-review`, `/qa`, `/ship`) |
-| **pstack**               | Lauren Tan (`@poteto`) | Cursor (+ `pstack-claude` ports) | `poteto-mode` playbooks, `/architect`, `/arena`, `/interrogate`, `/unslop` |
-| **Superpowers**          | Jesse Vincent (`obra`) | Claude Code, Cursor, OpenCode    | Spec-first brainstorming, Git worktrees, strict Red/Green TDD              |
-| **GSD**                  | Lex Christopherson     | Claude Code, Codex, OpenCode     | Fresh subagent context windows per phase to eliminate context rot          |
-| **Compound Engineering** | Every                  | Claude Code, Cursor, Codex       | Heavy planning/review + `/ce-compound` persistent repo learnings           |
-| **BMAD-METHOD**          | BMAD Code Org          | Multi-harness                    | Phased agile roles (Analysis -> Planning -> Solutioning -> Handoff)        |
-| **GitHub Spec Kit**      | GitHub                 | Copilot, Claude Code, Codex      | Structured Spec-Driven Development (`/specify` -> `/plan` -> `/tasks`)     |
-| **ECC**                  | Affaan Mustafa         | Claude Code, Cursor, Codex       | Full config suite of subagents, skills, hooks, and session memory          |
+| **pstack**               | Lauren Tan (`@poteto`) | Cursor (+ `pstack-claude` ports) | `poteto-mode` playbooks, `/architect`, `/arena`, `/interrogate`, `/unslop`  |
+| **Superpowers**          | Jesse Vincent (`obra`) | Claude Code, Cursor, OpenCode    | Spec-first brainstorming, Git worktrees, strict Red/Green TDD               |
+| **GSD**                  | Lex Christopherson     | Claude Code, Codex, OpenCode     | Fresh subagent context windows per phase to eliminate context rot           |
+| **Compound Engineering** | Every                  | Claude Code, Cursor, Codex       | Heavy planning/review + `/ce-compound` persistent repo learnings            |
+| **BMAD-METHOD**          | BMAD Code Org          | Multi-harness                    | Phased agile roles (Analysis -> Planning -> Solutioning -> Handoff)         |
+| **GitHub Spec Kit**      | GitHub                 | Copilot, Claude Code, Codex      | Structured Spec-Driven Development (`/specify` -> `/plan` -> `/tasks`)      |
+| **ECC**                  | Affaan Mustafa         | Claude Code, Cursor, Codex       | Full config suite of subagents, skills, hooks, and session memory           |
 
 ---
 
