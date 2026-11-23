@@ -1,0 +1,41 @@
+name: Submit an Agent Skill or Stack
+description: Suggest a portable SKILL.md pack, full-workflow skill stack, vendor collection, or registry tool.
+title: "[Add]: "
+labels: ["submission"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Skill Pack / Stack Name
+      placeholder: e.g., gstack
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Canonical URL
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Full-Workflow Skill Stacks & Methodologies
+        - Official Platform & Vendor Skill Packs
+        - Specialist & Craft Skill Packs
+        - Standards, Registries & Package Managers
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: One-Line Description
+      description: Concise, neutral summary explaining what repeatable workflows or capabilities this skill pack adds.
+      placeholder: Role-based engineering skill stack modeling a full sprint workflow.
+    validations:
+      required: true
